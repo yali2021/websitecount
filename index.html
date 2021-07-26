@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ya's website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+  
+
+	<script src="counter.js"></script>
+    <script>
+        updateVisitCount();
+    </script>
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	        <li><a class="smoothscroll" href="#resume">Resume</a></li>                     
+            
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hello. I'm Ya.</h1>
+
+            
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/ya.jpg" alt="" />
+            <p>
+            	Visits: <span id="counter"></span>
+            	
+            </p>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I am a AWS Certified Solutions Architect, with history of working with on-premise servers. I am gaining knowledge in AWS by myself and currently looking for Junior AWS Engineer jobs. I'm also a green card holder and mom of a two-year-old.
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Ya Li</span><br>
+						   <span>San Diego, CA, 92128
+                     </span><br>
+						   <span>5126059676</span><br>
+                     <span>yali0514@gmail.com</span>
+				  </p>
+
+               </div>
+
+<!--                <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div> -->
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+   	 <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Certification</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>AWS Certified Solutions Architect – Associate</h3>
+                  <p class="info"><em class="date">Dec 2020 – Dec 2023</em></p>
+                  <a href="https://www.credly.com/badges/7ce0380a-2dd4-41c9-9456-8805688d3c7f" target="_blank"><img class="cert-pic" src="images/AWS_Solutions_Architect_Associate.jpg"></img></a>                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+      <!-- Projects
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>AWS Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Weather Bot Project</h3>
+                  <p class="info"><em class="date">05/2021</em></p>
+
+                  <p>Created a weather bot using Amazon Lex. </br>                  	
+				  Retrieved response back to Lex using Lambda. </br>   
+				  Integrated the weather bot with Twillio messaging platform Whatsapp.</br>   
+				  Used the Weatherstack website which offers a free API for providing weather information for the city.</br>  
+				  The weather bot was able to be interacted with from WhatsApp.</p> 
+
+                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Detect Faces with Amazon Rekognition Project</h3>
+                  <p class="info"><em class="date">05/2021</em></p>
+
+                  <p>
+                  Recognized celebrities within the image using Amazon Rekognition.</br>
+				  Used Lambda function to process the image stored in S3 and saved the face results to DynamoDB table.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Projects -->
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>TriTech Software Systems, acquired by CentralSquare, San Diego, CA</h3>
+                  <p class="info">Installation Engineer <span>&bull;</span> <em class="date">Jan 2018 - Apr 2019</em></p>
+
+                  <p>
+                  Install and maintain Public Safety products, including CAD and RMS solutions.</br>
+				      Provide technical support via Remote Desktop Service.</br>
+				      Troubleshoot Windows Server 2012 and 2016.</br>
+				  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>SDG&E, San Diego, CA</h3>
+                  <p class="info">Tech Support Analyst II  <span>&bull;</span> <em class="date">Sept 2017 - Dec 2017</em></p>
+
+                  <p>
+                  Provide Windows and mobile devices support to more than 1,000 users in a fast-paced environment.</br>
+				  
+                  Respond to incidents and requests within the ticketing system Service Now.</br>                  
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Bioo Scientific, a PerkinElmer company, Austin, TX</h3>
+                  <p class="info">Web Developer<span>&bull;</span> <em class="date">Apr 2011 - Apr 2017</em></p>
+
+                  <p>
+                   Build and update Bioo Scientific webpages using DNN.</br>
+ 			          Improve Search Engine Optimization (SEO) for the website.</br>                                    
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Depaul University</h3>
+                  <p class="info">Computer Science <span>&bull;</span> <em class="date">2009</em></p>                  
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+    
+   <footer>
+   	
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+ 
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               
+            </ul>
+
+            
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+  
+   </footer> <!-- Footer End-->
+
+
+
+
+  
+
+ 
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+ </section> <!-- Resume Section End-->
+</body>
+
+</html>
