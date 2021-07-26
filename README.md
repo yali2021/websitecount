@@ -1,1 +1,1 @@
-This repo contains source code for www.ya-resume.com.
+This repo contains static files for www.ya-resume.com.
